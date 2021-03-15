@@ -11,8 +11,28 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "SportingGrotesque-Regular", "SportingGrotesque-Bold", sans-serif; 
 }
+
+
+@font-face {
+font-family: "SportingGrotesque-Regular";
+src: url("assets/css/font/SportingGrotesque-Regular.eot");
+src:
+url("assets/css/fonts/SportingGrotesque-Regular.woff") format("woff"),
+url("assets/css/fonts/SportingGrotesque-Regular.otf") format("opentype"),
+url("assets/css/fonts/SportingGrotesque-Regular.svg#filename") format("svg");
+}
+
+@font-face {
+font-family: "SportingGrotesque-Bold";
+src: url("css/font/SportingGrotesque-Bold.eot");
+src:
+url("css/fonts/SportingGrotesque-Bold.woff") format("woff"),
+url("css/fonts/SportingGrotesque-Bold.otf") format("opentype"),
+url("css/fonts/SportingGrotesque-bold.svg#filename") format("svg");
+}
+
 
 a {
   color: #2dc997;
@@ -31,7 +51,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "SportingGrotesque-Regular", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -96,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
+ 
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -120,6 +140,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .scrolled-offset {
   margin-top: 70px;
+}
+
+.logomain{
+	width: 20%;
+}
+
+.manifest{
+	width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -282,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(77, 77, 77, 0.9);
+  background:#F8D676;
   transition: 0.3s;
   z-index: 999;
 }
@@ -321,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #2dc997;
+  color: #7E65F5;
 }
 
 .navbar-mobile .getstarted {
@@ -353,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #2dc997;
+  color: #7E65F5;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -405,7 +433,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
+  
   color: #fff;
 }
 
@@ -460,7 +488,7 @@ section {
 /* Sections Header
 --------------------------------*/
 .section-header .section-title {
-  font-size: 32px;
+  font-size: 20px;
   color: #7E65F5;
   text-transform: uppercase;
   text-align: center;
@@ -532,7 +560,7 @@ section {
 --------------------------------*/
 #about {
   background: #fff;
-  padding:200px 0;
+  padding:40px 0;
 }
 
 #about .about-container .background {
@@ -751,7 +779,7 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2dc997;
+  background: #7E65F5;
   border: 2px solid #2dc997;
 }
 
@@ -984,6 +1012,7 @@ section {
 
 #contact .info {
   color: #333333;
+	margin-left: 20%;
 }
 
 #contact .info i {
@@ -991,6 +1020,7 @@ section {
   color: #7E65F5;
   float: left;
   line-height: 0;
+	
 }
 
 #contact .info p {
@@ -1005,7 +1035,7 @@ section {
 }
 
 #contact .social-links {
-  padding: 20px 80px;
+  padding: 20px 127px;
 }
 
 #contact .social-links a {
@@ -1118,7 +1148,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #343b40;
+  background: #EF8B6E;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
