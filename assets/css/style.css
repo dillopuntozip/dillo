@@ -573,6 +573,31 @@ section {
   padding:40px 0;
 }
 
+@media (min-width: 1024px) {
+  .manifest {
+    display: none;
+  }
+	
+	 .manifestorizz {
+    display: block;
+  }
+}
+
+.manifestorizz{
+	width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .manifest {
+    display: block;
+  }
+	
+	 .manifestorizz {
+    display: none;
+  }
+}
+
+
 #about .about-container .background {
   min-height: 300px;
   background: url(../img/about-img.jpg) center top no-repeat;
