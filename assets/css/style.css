@@ -11,26 +11,32 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", "SportingGrotesque-Regular", "SportingGrotesque-Bold", sans-serif; 
+  font-family: "Open Sans", "SportingGrotesque-Regular", "SportingGrotesque-Bold", sans-serif;
 }
 
 
 @font-face {
-font-family: "SportingGrotesque-Regular";
-src: url("assets/css/font/SportingGrotesque-Regular.eot");
-src:
-url("assets/css/fonts/SportingGrotesque-Regular.woff") format("woff"),
-url("assets/css/fonts/SportingGrotesque-Regular.otf") format("opentype"),
-url("assets/css/fonts/SportingGrotesque-Regular.svg#filename") format("svg");
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url('./assets/font/Regular/Sporting_Grotesque-Regular_web.eot');
+    src:    url('./assets/font/Regular/Sporting_Grotesque-Regular_web.eot?#iefix') format('embedded-opentype'),
+            url('./assets/font/Regular/Sporting_Grotesque-Regular_web.woff') format('woff'),
+            url('./assets/font/Regular/Sporting_Grotesque-Regular_web.woff2') format('woff2'),
+            url('./assets/font/Regular/Sporting_Grotesque-Regular_web.ttf') format('truetype'),
+            url('./assets/font/Regular/Sporting_Grotesque-Regular_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-font-family: "SportingGrotesque-Bold";
-src: url("css/font/SportingGrotesque-Bold.eot");
-src:
-url("css/fonts/SportingGrotesque-Bold.woff") format("woff"),
-url("css/fonts/SportingGrotesque-Bold.otf") format("opentype"),
-url("css/fonts/SportingGrotesque-bold.svg#filename") format("svg");
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('./assets/font/Bold/Sporting_Grotesque-Bold_web.eot');
+    src:    url('./assets/font/Bold/Sporting_Grotesque-Bold_web.eot?#iefix') format('embedded-opentype'),
+            url('./assets/font/Bold/Sporting_Grotesque-Bold_web.woff') format('woff'),
+            url('./assets/font/Bold/Sporting_Grotesque-Bold_web.woff2') format('woff2'),
+            url('./assets/font/Bold/Sporting_Grotesque-Bold_web.ttf') format('truetype'),
+            url('./assets/font/Bold/Sporting_Grotesque-Bold_web.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -116,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
- 
+
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -154,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -283,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -433,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  
+
   color: #fff;
 }
 
@@ -1020,7 +1026,7 @@ section {
   color: #7E65F5;
   float: left;
   line-height: 0;
-	
+
 }
 
 #contact .info p {
