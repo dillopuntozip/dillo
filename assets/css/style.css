@@ -702,6 +702,12 @@ section {
 	display: block;
 }
 
+@media (max-width: 1024px) {
+  .form {
+    width: 90%;
+  }
+}
+
 #services {
   background: #fff;
   background-size: cover;
