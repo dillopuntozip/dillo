@@ -11,11 +11,11 @@
 
 @font-face {
     font-family: 'Sporting Grotesque';
-    src: url('/assets/font/SportingGrotesque-Regular.eot');
-    src: url('/assets/font/SportingGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/assets/font/SportingGrotesque-Regular.woff2') format('woff2'),
-        url('/assets/font/SportingGrotesque-Regular.woff') format('woff'),
-        url('/assets/font/SportingGrotesque-Regular.ttf') format('truetype');
+    src: url('./assets/font/SportingGrotesque-Regular.eot');
+    src: url('./assets/font/SportingGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/SportingGrotesque-Regular.woff2') format('woff2'),
+        url('./assets/font/SportingGrotesque-Regular.woff') format('woff'),
+        url('./assets/font/SportingGrotesque-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -23,11 +23,11 @@
 
 @font-face {
     font-family: 'Sporting Grotesque';
-    src: url('/assets/font/SportingGrotesque-Bold.eot');
-    src: url('/assets/font/SportingGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/assets/font/SportingGrotesque-Bold.woff2') format('woff2'),
-        url('/assets/font/SportingGrotesque-Bold.woff') format('woff'),
-        url('/assets/font/SportingGrotesque-Bold.ttf') format('truetype');
+    src: url('./assets/font/SportingGrotesque-Bold.eot');
+    src: url('./assets/font/SportingGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/SportingGrotesque-Bold.woff2') format('woff2'),
+        url('./assets/font/SportingGrotesque-Bold.woff') format('woff'),
+        url('./assets/font/SportingGrotesque-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -579,7 +579,7 @@ section {
   .manifest {
     display: none;
   }
-	
+
 	 .manifestorizz {
     display: block;
   }
@@ -593,7 +593,7 @@ section {
   .manifest {
     display: block;
   }
-	
+
 	 .manifestorizz {
     display: none;
   }
